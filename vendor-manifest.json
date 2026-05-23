@@ -1,0 +1,7 @@
+﻿{
+    "digitalSignature":  "",
+    "requestAdminPrivileges":  true,
+    "vendorName":  "UntrustedVendor_Corp",
+    "apiVersion":  "1.0.4",
+    "tlsRequirement":  "TLS1.1"
+}
