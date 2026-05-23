@@ -1,7 +1,7 @@
 ﻿{
-    "digitalSignature":  "",
-    "requestAdminPrivileges":  true,
+    "digitalSignature":  "RSA_SHA256_9aef34b1",
+    "requestAdminPrivileges":  false,
     "vendorName":  "UntrustedVendor_Corp",
-    "apiVersion":  "1.0.4",
-    "tlsRequirement":  "TLS1.1"
+    "apiVersion":  "1.0.5",
+    "tlsRequirement":  "TLS1.3"
 }
