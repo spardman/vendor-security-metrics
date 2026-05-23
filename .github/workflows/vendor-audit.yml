@@ -1,0 +1,21 @@
+﻿name: Metric 2 - Systemic Security Gaps Audit
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  audit-vendor-input:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout Repository Code
+      uses: actions/checkout@v4
+
+    - name: Execute Metric 2 Sandbox Audit
+      shell: powershell
+      run: |
+        Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
+        .\Test-VendorInput.ps1
